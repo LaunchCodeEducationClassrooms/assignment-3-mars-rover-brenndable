@@ -19,7 +19,7 @@ describe("GRADING TEST: ", function() {
    });
 
    it("Responds to TA message & commands", function() {
-    let rover = new Rover(100);
+    let rover = new Rover(4321);
     let commands = [
        new Command('MOVE', 4321),
        new Command('STATUS_CHECK'),
